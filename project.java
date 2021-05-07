@@ -5,7 +5,7 @@ public class Arrays {
         boolean passed = false;
         int[] scores = {4,6,2,8,12,35,9};
         for (int unitScore : scores){
-            if(unitScore >= 11){
+            if(unitScore >= 12){
                 passed = true;
                 break;
             }
